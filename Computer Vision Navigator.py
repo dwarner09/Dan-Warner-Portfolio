@@ -1,7 +1,12 @@
 # LaneGuidance Software
-# Version: 10!
+# Version: 10
 # Date Created: 2 Mar 2020
 # Last Modified: 29 April 2020
+
+#Overview
+#This is a computer vision navigation software built utilizing the OpenCV library for Python. It takes input from a picamera, processes the images to create 
+#a mathematical representation of lanes, and makes guidance decisions based on it's orientations to lanes and intersections. Guidance commands were delivered 
+# to an arduino controlled motor driver via higher level driver software.
 
 # setup
 import cv2
